@@ -1,0 +1,31 @@
+{
+  "name": "node.js-hw01",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zorotool/node.js-hw01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zorotool/node.js-hw01/issues"
+  },
+  "homepage": "https://github.com/Zorotool/node.js-hw01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^9.4.1",
+    "nanoid": "^4.0.0"
+  }
+}
